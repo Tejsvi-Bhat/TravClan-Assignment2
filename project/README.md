@@ -13,3 +13,5 @@ Holiday-adjacent bookings are **not** the premium long-weekend demand you'd assu
 - AI's first version assumed `/2024/IN` returned JSON and crashed on the real **HTTP 204** — I added the 204/empty-body branch and the bundled-calendar fallback so the run never dies.
 - AI initially did a cross join + date-diff filter; I replaced it with a tolerance `merge_asof` for speed and correctness at ±2 days.
 - AI computed avg value over all rows; I restricted it to `Completed` bookings (Footnote 8) so cancelled would-have-been amounts don't inflate the number.
+
+*(The insight and AI-usage note are also provided as standalone `INSIGHT.md` and `AI_NOTES.md`.)*

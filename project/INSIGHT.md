@@ -1,0 +1,3 @@
+# Quantified Insight — Holiday-Proximity Demand Tagger
+
+Holiday-adjacent bookings are **not** the premium long-weekend demand you'd assume. Of 11,821 valid bookings, 20.3% (2,398) fall within ±2 days of a national holiday, yet their average completed value is ₹30,704 vs ₹32,033 for ordinary bookings — a **4.2% discount, not a premium** — while length of stay is flat (2.87 vs 2.85 nights). Worse, their cancellation rate is **1.71pp higher** (20.5% vs 18.8%). The dataset alone can't say this without the external holiday calendar; the actionable read is that holiday windows bring slightly cheaper, flakier bookings, so surge-pricing or tighter cancellation terms around holidays are unjustified here.
